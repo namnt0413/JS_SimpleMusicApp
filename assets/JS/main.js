@@ -37,6 +37,38 @@ const app ={
     settings: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     
     songs: [
+        {
+            name: "Đường tôi chở em về",
+            singer: "buitruonglinh",
+            path: '../../assets/music/song1.mp3',
+            image: '../../assets/img/song1.jpg'
+          },
+          {
+            name: "Người lạ thoáng qua",
+            singer: "Thương Võ",
+            path: '../../assets/music/song2.mp3',
+            image: '../../assets/img/song2.jpg'
+          },{
+            name: "Yêu là cưới",
+            singer: "Hương Ly",
+            path: '../../assets/music/song3.mp3',
+            image: '../../assets/img/song3.jpg'
+          },{
+            name: "Rồi tới luôn",
+            singer: "Anh Khoa",
+            path: '../../assets/music/song4.mp3',
+            image: '../../assets/img/song4.jpg'
+          },{
+            name: "3107-2",
+            singer: "FREAK D",
+            path: '../../assets/music/song5.mp3',
+            image: '../../assets/img/song5.jpg'
+          },{
+            name: "Dù cho mai về sau",
+            singer: "buitruonglinh",
+            path: '../../assets/music/song6.mp3',
+            image: '../../assets/img/song6.jpg'
+          },
 
     
       ],
